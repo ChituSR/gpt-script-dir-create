@@ -1,0 +1,7 @@
+name: mkdir 
+tools: sys.write 
+description: Creates a specified directory 
+args: dir: Path to the directory to be created. Will create parent directories. 
+
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py --dirName="${dir}"
